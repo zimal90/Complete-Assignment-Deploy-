@@ -1,0 +1,48 @@
+h3{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: chocolate;
+    cursor: pointer;
+    }
+    .card1, .card2, .card3, .card4 {
+    border: 1px solid black;
+    max-width: 250px !important;
+    margin-top: 10px;
+    /* display: flex;
+    flex-direction: row; */
+    margin-bottom: 10px;
+    max-height: 100% !important;
+    cursor: pointer;
+    padding: 30px;
+    background-color: black;
+    }
+    
+    
+    
+    .price{
+    text-align: center;
+    margin-bottom: 10px;
+    color: chocolate;
+    cursor: pointer;
+    }
+    .row{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    max-height: 100%;
+    cursor: pointer;
+    }
+    .newArrival{
+    max-width: 250px;
+    max-height: 200px;
+    cursor: pointer;
+    transition:transform 1s;
+    }
+    .newArrival:hover{
+    transform: scale(1.4);
+    }
+    
